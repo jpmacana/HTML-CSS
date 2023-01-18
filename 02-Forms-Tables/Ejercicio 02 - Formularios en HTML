@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+<form action='/' method='GET'>
+    
+<label for="nombre">Nombre</label>
+<input type="text" name="nombre" value="Nombre">
+<label for="edad">Edad</label>
+<input type="number" name="edad" value="Edad">
+<button type="submit">Envio</button>
+<button type="submit">Reset</button>
+
+
+</form>
+
+
+    </body>
+</html>
