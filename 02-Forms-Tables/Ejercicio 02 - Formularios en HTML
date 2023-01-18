@@ -10,10 +10,10 @@
     
 <form action='/' method='GET'>
     
-<label for="nombre">Nombre</label>
+
 <input type="text" name="nombre" value="Nombre">
-<label for="edad">Edad</label>
 <input type="number" name="edad" value="Edad">
+<textarea name="frase-favorita"></textarea>
 <button type="submit">Envio</button>
 <button type="submit">Reset</button>
 
